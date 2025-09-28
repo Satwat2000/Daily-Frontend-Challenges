@@ -1,0 +1,64 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     height: 100vh;
+     padding: 0 70px;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     font-family: "Sora", sans-serif;
+     background-color: #D4D4D8;
+ }
+
+ @media (min-width: 412px) {
+     body {
+         flex-direction: column;
+     }
+ }
+
+ .text-heading {
+     font-size: 2.25rem;
+     font-weight: 800;
+ }
+
+ .tex-body {
+     font-size: 1.25rem;
+     font-weight: 400;
+     ;
+ }
+
+ .text-body-2 {
+     font-size: 1rem;
+     font-weight: 400;
+ }
+
+ .text-list-item {
+     font-size: 0.875rem;
+     font-weight: 400;
+ }
+
+ .author-info {
+     font-size: 14px;
+     text-align: center;
+     margin-top: 16px;
+     color: rgb(55, 65, 81);
+ }
+
+ .author-info a {
+     text-decoration: none;
+ }
+
+ .icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+ }
+
